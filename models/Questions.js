@@ -7,3 +7,4 @@ const QuestionsSchema = new mongoose.Schema({
 }, { collection: 'questions' });
 
 module.exports = mongoose.model('Questions', QuestionsSchema);
+ 
